@@ -22,4 +22,4 @@ function createIntervalObservable(base: number): Observable<number> {
 }
 
 stream.switchMap(createIntervalObservable)
-  .subscribe(result => console.log(result))
+  .subscribe(result => console.log(result));
